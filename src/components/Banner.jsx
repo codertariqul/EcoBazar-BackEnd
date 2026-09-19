@@ -23,7 +23,7 @@ import BannerBigBgggg from '../assets/svg/BannerBigBgggg'
 import { useTranslation } from "react-i18next";
 // --- [FIXED]: Imported useNavigate for routing ---
 import { useNavigate } from 'react-router';
-
+// Checking for github
 const Banner = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();
